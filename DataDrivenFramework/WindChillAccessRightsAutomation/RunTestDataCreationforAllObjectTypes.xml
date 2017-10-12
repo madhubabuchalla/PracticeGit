@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WindChillAccessRightsValidation" preserve-order="true" verbose = "2">
+    <suite-files>
+        <suite-file path="TestDataCreationSuites/CatalogPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ChangeNoticeTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ChangeTaskTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/DescribeDocumentTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/EngineeredPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/FolderTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ManagedCollectionTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ManufacturerPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/MountingContextPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ObjectListPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ProblemReportTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/RawMaterialPartTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites/ReferenceDocumentTestDataCreationSuite.xml"></suite-file>
+        <suite-file path="TestDataCreationSuites\TreatmentPartTestDataCreationSuite.xml"></suite-file>
+    </suite-files>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EngineeredPartTestSuite" verbose="1">
+<!-- TestNG listeners for Generating Interactive ReportNG Reports -->
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+
+  <test name="Engineered Part Access Rights Validation" preserve-order="true">
+  
+  <!--  -->
+    <classes>
+      <class name="com.schneider.windchillaccessrightsvalidation.engineeredpart.EngineeredPartAccessRightsValidationDriverScript"/>      
+    </classes>
+  </test>
+</suite>

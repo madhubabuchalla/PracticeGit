@@ -1,0 +1,23 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WindChillAccessRightsValidation" preserve-order="true" verbose = "2">
+    <suite-files>
+        <suite-file path="TestSuites/DescribeDocumentTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ReferenceDocumentTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ObjectListPartTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/CADDocumentTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ChangeNoticeTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ChangeTaskTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/EngineeredPartTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/FolderTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ManagedCollectionTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ManufacturerPartTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/MountingContextTestPartSuite.xml"></suite-file>
+        <suite-file path="TestSuites/ProblemReportTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/PromotionRequestTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/RawMaterialPartTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/TreatmentPartTestSuite.xml"></suite-file>
+        <suite-file path="TestSuites/CatalogPartTestSuite.xml"></suite-file>
+    </suite-files>
+</suite>

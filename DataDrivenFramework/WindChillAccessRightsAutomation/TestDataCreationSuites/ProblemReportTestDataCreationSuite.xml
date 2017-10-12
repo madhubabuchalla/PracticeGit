@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ProblemReportTestDataCreationSuite" verbose="1">
+<!-- TestNG listeners for Generating Interactive ReportNG Reports -->
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+ 
+ 
+  <test name="Test Data Creation for Problem Report" preserve-order="true">
+  
+  <!--  -->
+    <classes>
+      <class name="com.schneider.windchill.accessrightsvalidation.testdatacreation.ProblemReportTestDataCreation"/>      
+    </classes>
+  </test>
+</suite>
